@@ -22,6 +22,7 @@ class ViewController: UITableViewController, UISearchBarDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        // コミットテスト
         SchBr.text = "GitHubのリポジトリを検索できるよー"
         SchBr.delegate = self
     }
